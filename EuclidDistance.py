@@ -22,6 +22,7 @@ distances = [euclidDistance(points[i], points[j]) for i in range(len(points)) fo
 min_distance = min(distances)
 print(f"Minimum mesafe: {min_distance}")
 
+
 # nokta (1, 2) ile nokta (4, 6) arasındaki mesafe: 5.0
 # nokta (1, 2) ile nokta (2, 3) arasındaki mesafe: 1.4142135623730951
 # nokta (1, 2) ile nokta (5, 7) arasındaki mesafe: 6.4031242374328485
