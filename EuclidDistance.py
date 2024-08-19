@@ -6,7 +6,6 @@ def euclidDistance(point1, point2): #iki nokta arasındaki mesafe
   x2, y2 = point2
   return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
-
 points = [(1, 2), (4, 6), (2, 3), (5, 7)]
 
 
