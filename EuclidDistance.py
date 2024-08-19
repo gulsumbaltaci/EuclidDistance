@@ -8,7 +8,6 @@ def euclidDistance(point1, point2): #iki nokta arasındaki mesafe
 
 points = [(1, 2), (4, 6), (2, 3), (5, 7)]
 
-
 for i in range(len(points)):     # tüm noktalar arasındaki mesafeler
   
   for j in range(i + 1, len(points)):
@@ -21,7 +20,6 @@ for i in range(len(points)):     # tüm noktalar arasındaki mesafeler
 distances = [euclidDistance(points[i], points[j]) for i in range(len(points)) for j in range(i + 1, len(points))]
 
 min_distance = min(distances)
-
 print(f"Minimum mesafe: {min_distance}")
 
 # nokta (1, 2) ile nokta (4, 6) arasındaki mesafe: 5.0
