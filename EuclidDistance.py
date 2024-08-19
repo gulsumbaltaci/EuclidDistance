@@ -17,7 +17,6 @@ for i in range(len(points)):     # tüm noktalar arasındaki mesafeler
     print(f"Nokta {points[i]} ile nokta {points[j]} arasındaki mesafe: {distance}")
 
 
-#deneme
 
 # minimum mesafe
 distances = [euclidDistance(points[i], points[j]) for i in range(len(points)) for j in range(i + 1, len(points))]
